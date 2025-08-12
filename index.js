@@ -60,6 +60,6 @@ app.get('/github',(req,res)=>{
     res.json(githubData);
 })
 
-app.listen(process.env.port, () => {
+app.listen(PORT, () => {
   console.log(`Example app listening on port ${process.env.port}`)
 })
